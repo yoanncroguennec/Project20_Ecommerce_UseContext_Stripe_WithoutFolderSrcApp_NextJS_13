@@ -20,8 +20,8 @@ Stripe avec redirection Page "Succès"
 
 Listes d'autres Applications Ecommerce avec Next JS, réalisé :
 
-1. (Folder Github Private)
-   CRUD - Avec la gestion d'ajout/suppression au panier sans "useContext" mais via un "use-shopping-cart" & sans "MongoDB" & paiement via Stripe.
+1. (Folder Github Private)<br/>
+   CRUD - Avec la gestion d'ajout/suppression au panier sans "useContext" mais via un "use-shopping-cart" & sans "MongoDB" & paiement via Stripe.<br/>
    Link Website :
    Link Github :
 2. (Folder Github Private)
