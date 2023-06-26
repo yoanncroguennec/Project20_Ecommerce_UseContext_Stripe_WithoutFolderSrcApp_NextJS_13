@@ -1,6 +1,7 @@
-import { Box, Typography, styled } from "@mui/material";
+import { Box, Button, Typography, styled } from "@mui/material";
 // UTILS LIBS
 import { checkout } from "../../../utils/libs/checkout";
+import { useCart } from "@/utils/contexts";
 
 ////////////////////// EXPORT FUNCTION //////////////////////
 export default function FooterModalCart({ handleClose, items }) {
@@ -27,6 +28,17 @@ export default function FooterModalCart({ handleClose, items }) {
     padding: "12px 24px",
   }));
 
+    const BtnResetCart = styled(Box)(({ theme }) => ({
+      alignItems: "center",
+      background: "#FF0000",
+      borderRadius: "8px",
+      color: "#FFF",
+      display: "flex",
+      justifyContent: "center",
+      marginTop: "24px",
+      padding: "12px 24px",
+    }));
+
     const BoxContinueShopping = styled(Box)(({ theme }) => ({
       alignItems: "center",
       background: "#FFF",
@@ -47,6 +59,8 @@ export default function FooterModalCart({ handleClose, items }) {
   }));
 
   ////////////////////// JS //////////////////////
+   const { resetCart } = useCart();
+
   function handleCheckout(e) {
     e.preventDefault();
     checkout(items);
@@ -79,8 +93,13 @@ export default function FooterModalCart({ handleClose, items }) {
           <BoxBtnPay onClick={handleCheckout}>
             <Typography variant='h5'>Payer</Typography>
           </BoxBtnPay>
+          <BtnResetCart onClick={resetCart}>
+            <Typography variant='h5'>Vider le panier</Typography>
+          </BtnResetCart>
           <BoxContinuePurchasing>
-            <Typography variant='h5'>ou </Typography>
+            <Typography style={{ fontWeight: "bold" }} variant='h5'>
+              OU
+            </Typography>
             <BoxContinueShopping type='button' onClick={handleClose}>
               <Typography variant='h5'>Continuer le shopping</Typography>
             </BoxContinueShopping>

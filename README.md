@@ -12,6 +12,12 @@ With "UseContext"<br/>
 Stripe avec redirection Page "Succès"<br/>
 
 
+<br />
+Cliquez sur l'image ci-dessous pour être redirigée vers la vidéo Youtube présentant le Projet "Ecommerce - Stripe" :
+
+[![texte alternatif de l'image](https://res.cloudinary.com/dky2vpnyr/image/upload/v1687814132/Github/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13_xq5w9r.png)](https://www.youtube.com/watch?v=E9YKi5RR_zM "Youtube : Présetation projet Clone Netflix MERN Next 12
+")
+
 ***
 ***
 
