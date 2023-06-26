@@ -1,7 +1,6 @@
-import { Box, Typography, styled } from '@mui/material'
+import { Box, Typography, styled } from "@mui/material";
 // UTILS LIBS
-import { checkout } from '../../../utils/libs/checkout'
-
+import { checkout } from "../../../utils/libs/checkout";
 
 ////////////////////// EXPORT FUNCTION //////////////////////
 export default function FooterModalCart({ handleClose, items }) {
@@ -28,10 +27,22 @@ export default function FooterModalCart({ handleClose, items }) {
     padding: "12px 24px",
   }));
 
+    const BoxContinueShopping = styled(Box)(({ theme }) => ({
+      alignItems: "center",
+      background: "#FFF",
+      border: "2px solid rgb(5 150 105)",
+      borderRadius: "8px",
+      color: "rgb(5 150 105)",
+      display: "flex",
+      fontWeight: "bold",
+      justifyContent: "center",
+      padding: "12px 24px",
+    }));
+
   const BoxContinuePurchasing = styled(Box)(({ theme }) => ({
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
-    marginTop: "24px",
     textAlign: "center",
   }));
 
@@ -59,22 +70,23 @@ export default function FooterModalCart({ handleClose, items }) {
         Les frais d&apos;expédition et les taxes sont calculés au moment du
         paiement.
       </Typography>
-      <BoxBtnPay onClick={handleCheckout}>
-        <Typography variant='h5'>Payer</Typography>
-      </BoxBtnPay>
-      <BoxContinuePurchasing>
-        <Typography variant=''>
-          ou{" "}
-          <button
-            type='button'
-            style={{ color: "rgb(5 150 105)" }}
-            onClick={handleClose}
-          >
-            Continuer le Shopping
-            <span aria-hidden='true'> &rarr;</span>
-          </button>
-        </Typography>
-      </BoxContinuePurchasing>
+      {items.length === 0 ? (
+        <BoxContinueShopping onClick={handleClose}>
+          <Typography variant='h5'>Faire du shopping</Typography>
+        </BoxContinueShopping>
+      ) : (
+        <>
+          <BoxBtnPay onClick={handleCheckout}>
+            <Typography variant='h5'>Payer</Typography>
+          </BoxBtnPay>
+          <BoxContinuePurchasing>
+            <Typography variant='h5'>ou </Typography>
+            <BoxContinueShopping type='button' onClick={handleClose}>
+              <Typography variant='h5'>Continuer le shopping</Typography>
+            </BoxContinueShopping>
+          </BoxContinuePurchasing>
+        </>
+      )}
     </RootFooterModalCart>
   );
 }

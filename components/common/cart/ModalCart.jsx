@@ -86,6 +86,7 @@ export default function ModalCart() {
       >
         <RootModalCart>
           <BoxListItems>
+          
             {items.map((price) => (
               <BoxContentListItems key={price.id}>
                 <Image
