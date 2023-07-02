@@ -3,7 +3,18 @@ La liste des produits du site ecommerce sont appelée depuis le compte de Stripe
 J'ai créer un context à l'aide du hook "useContext" de React, pour pouvoir gérer l'ajout et suppression du panier.<br/>
 J'aai mis en place un système de paiement, avec Stripe, renvoyant vers une page de succès, affichant l'ID du numéro de commande mais également le récapitulatif de la commande et de l'adresse de livraison.<br/>
 
-# PROCÉDURE :
+***
+***
+
+<b><u>Informations du Projet :</u></b><br/>
+<b><u>WARNING !</u></b> No mongoDb database used but managed with stripe for products<br/>
+Lien Github : "https://github.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
+Lien Vercel : ""<br/>
+
+***
+***
+
+<b><u>Procédure effectué :</u></b><br/>
 ### Call products :<br/>
 Call products from Stripe but not from MongoDB<br/>
 ### Gestion de panier (ajout/suppression produits) :<br/>
@@ -12,6 +23,8 @@ With "UseContext"<br/>
 Stripe avec redirection Page "Succès"<br/>
 
 
+***
+***
 <br />
 Cliquez sur l'image ci-dessous pour être redirigée vers la vidéo Youtube présentant le Projet "Ecommerce - Stripe" :
 
@@ -20,14 +33,15 @@ Cliquez sur l'image ci-dessous pour être redirigée vers la vidéo Youtube pré
 
 ***
 ***
+<br/>
+<b><u>Listes d'autres Applications Ecommerce avec Next JS, que j'ai réalisé :</u></b><br/>
 
-Listes d'autres Applications Ecommerce avec Next JS, que j'ai réalisé :
-
-1. (Folder Github Private)<br/>
-   CRUD - Avec la gestion d'ajout/suppression au panier sans "useContext" mais via un "use-shopping-cart" & sans "MongoDB" & paiement via Stripe.<br/>
-   Link Website : <br/>
-   Link Github : <br/>
-2. (Folder Github Private)<br/>
-   CRUD - Avec la gestion d'ajout/suppression au panier via un "useContext" & avec "MongoDB".<br/>
-   Link Website : <br/>
+1. CRUD / With "useContext" for basket management / Without "MongoDB" - "Stripe" :<br/>
+   Link Vercel : <br/>
+   <b><u>(Folder Github Public)</u></b><br/>
+   Link Github : "https://github1s.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
+   <br/>
+2. CRUD - Avec la gestion d'ajout/suppression au panier via un "useContext" / "use-shopping-cart" / With "MongoDB".<br/>
+   Link Vercel : <br/>
+   <b><u>(Folder Github Private)</u></b><br/>
    Link Github : <br/>
