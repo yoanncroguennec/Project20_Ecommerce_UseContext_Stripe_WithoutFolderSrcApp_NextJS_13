@@ -9,7 +9,7 @@ J'aai mis en place un système de paiement, avec Stripe, renvoyant vers une page
 <b><u>Informations du Projet :</u></b><br/>
 <b><u>WARNING !</u></b> No mongoDb database used but managed with stripe for products<br/>
 Lien Github : "https://github.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
-Lien Vercel : ""<br/>
+Lien Vercel : "https://project20-ecommerce-use-context-stripe-without-folde-kx5f48heg.vercel.app/"<br/>
 
 ***
 ***
@@ -37,7 +37,7 @@ Cliquez sur l'image ci-dessous pour être redirigée vers la vidéo Youtube pré
 <b><u>Listes d'autres Applications Ecommerce avec Next JS, que j'ai réalisé :</u></b><br/>
 
 1. CRUD / With "useContext" for basket management / Without "MongoDB" - "Stripe" :<br/>
-   Link Vercel : <br/>
+   Link Vercel : "https://project20-ecommerce-use-context-stripe-without-folde-kx5f48heg.vercel.app/"<br/>
    <b><u>(Folder Github Public)</u></b><br/>
    Link Github : "https://github1s.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
    <br/>
