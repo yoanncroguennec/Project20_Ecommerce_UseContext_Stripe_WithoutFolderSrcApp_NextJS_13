@@ -39,7 +39,7 @@ Cliquez sur l'image ci-dessous pour être redirigée vers la vidéo Youtube pré
 1. CRUD / With "useContext" for basket management / Without "MongoDB" - "Stripe" :<br/>
    Link Vercel : "https://project20-ecommerce-use-context-stripe-without-folde-kx5f48heg.vercel.app/"<br/>
    <b><u>(Folder Github Public)</u></b><br/>
-   Link Github : "https://github1s.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
+   Link Github : "https://github.com/yoanncroguennec/Project20_Ecommerce_UseContext_Stripe_WithoutFolderSrcApp_NextJS_13"<br/>
    <br/>
 2. CRUD - Avec la gestion d'ajout/suppression au panier via un "useContext" / "use-shopping-cart" / With "MongoDB".<br/>
    Link Vercel : <br/>
