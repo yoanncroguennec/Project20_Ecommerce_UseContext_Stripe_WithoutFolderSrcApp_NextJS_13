@@ -76,7 +76,7 @@ export default function HomePage({
   return (
     <RootHomePage>
       <TypoTitlePage align='center' variant={matches ? "h5" : "h3"}>
-        Produits en ligne :
+        Liste des Pizzas :
       </TypoTitlePage>
 
       <BoxListProducts>
